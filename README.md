@@ -7,38 +7,6 @@
 Predictors / X = "OverallQual", "TotalBsmtSF", "GrLivArea", "KitchenQual"
 Response / Y = "SalePrice"
 
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:              SalePrice   R-squared:                       0.819
-Model:                            OLS   Adj. R-squared:                  0.819
-Method:                 Least Squares   F-statistic:                     1231.
-Date:                Tue, 09 Jun 2020   Prob (F-statistic):               0.00
-Time:                        17:21:20   Log-Likelihood:                -12987.
-No. Observations:                1092   AIC:                         2.598e+04
-Df Residuals:                    1087   BIC:                         2.601e+04
-Df Model:                           4                                         
-Covariance Type:            nonrobust                                         
-===============================================================================
-                  coef    std err          t      P>|t|      [0.025      0.975]
--------------------------------------------------------------------------------
-const       -1.653e+05   5978.925    -27.655      0.000   -1.77e+05   -1.54e+05
-OverallQual  1.947e+04   1273.210     15.289      0.000     1.7e+04     2.2e+04
-TotalBsmtSF    57.8485      3.433     16.849      0.000      51.112      64.585
-GrLivArea      59.8088      2.713     22.042      0.000      54.485      65.133
-KitchenQual  2.143e+04   2221.629      9.646      0.000    1.71e+04    2.58e+04
-==============================================================================
-Omnibus:                      265.481   Durbin-Watson:                   1.969
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1743.357
-Skew:                           0.948   Prob(JB):                         0.00
-Kurtosis:                       8.892   Cond. No.                     1.11e+04
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 1.11e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.
-"""
-
 
 
 ### What still needs to be done
