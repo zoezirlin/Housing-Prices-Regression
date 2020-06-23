@@ -1,25 +1,6 @@
 # Housing-Prices-Regression
 
 
-
-### Final regression model:
-
-Predictors / X = "OverallQual", "TotalBsmtSF", "GrLivArea", "KitchenQual"
-
-Response / Y = "SalePrice"
-
-
-
-### What still needs to be done
-
-Regression model, though it has a high adjusted R^2 value, (.819), has excessive nonconstant variance, making a megaphone effect in the residual modeling. 
-
-"If a residual plot against a predictor exhibits a megaphone shape, then regress the absolute values of the residuals against that predictor. The resulting fitted values of this regression are estimates of σi. (And remember wi=1/σ2i)." (https://online.stat.psu.edu/stat462/node/186/)
-
-^^ Need to run a boxcox transformation on train_final dataset.
-
-
-
 ### File Descriptions
 
 train.csv - the training set
